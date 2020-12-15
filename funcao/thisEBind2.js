@@ -1,10 +1,11 @@
 function People() {
-    this.age = 05
+    this.age = 0 
 
+    const self= this
     setInterval(function() {
-        this.age++
-        console.log(this.age)
-    }, 1000)
+        self.age++
+        console.log(self.age)
+    }/*.bind(this)*/, 1000)
 }
 
 new People
