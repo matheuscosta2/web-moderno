@@ -15,4 +15,9 @@ const createBar = name => {
     return {
         speak: () => console.log(`My name is ${name}`)
     }
-}
+}  
+
+const bar1 = createBar('Ananda')
+bar1.speak()
+
+
