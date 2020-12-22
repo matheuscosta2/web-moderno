@@ -19,4 +19,4 @@ const Calculator = (number1, operation, number2) => {
   }
 };
 
-Calculator(1, "+", 1); 
+Calculator(1, "-", 1); 
